@@ -1,0 +1,69 @@
+body {
+background-color: #101727;
+font-family: 'Overpass', 'Arial', sans-serif;
+color: white;
+text-align: center;
+}
+
+h1 {
+font-family: 'Source Serif Pro', sans-serif;
+font-size: 36px;
+color: white;
+font-weight: bold;
+text-transform:capitalize;
+}
+
+h3 {
+font-family: 'Overpass', 'Arial', sans-serif;
+font-size: 16px;
+font-weight: bold;
+color: white;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+body {
+  text-decoration: none;
+}
+
+a {
+text-decoration: none;
+  font-weight: bold;
+  color: #FCFCED;
+}
+
+img {
+  width: 100%;
+}
+
+#navigation {
+font-family: 'Overpass', 'Arial', sans-serif;
+font-weight: bold;
+background-color: #528655;
+padding: 5px;
+}
+
+#waw {
+  padding: 5px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#topic {
+  background-color: #528655;
+}
+
+#contestants {
+  background-color: #141B54;
+  padding: 1px;
+}
+
+#gender {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
