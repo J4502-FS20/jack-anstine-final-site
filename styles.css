@@ -36,11 +36,41 @@ img {
   width: 100%;
 }
 
+.nav {
+  display: flex;
+  font-family: 'Overpass', 'Arial', sans-serif;
+  font-weight: bold;
+  list-style: none;
+  text-decoration: none;
+  flex-direction: row;
+  justify-content: center;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+@@media (min-width: 600px) {
+  .nav {
+    display: flex;
+    font-family: 'Overpass', 'Arial', sans-serif;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+    flex-flow: wrap;
+    justify-content: flex-start;
+
+  }
+}
+
 #navigation {
 font-family: 'Overpass', 'Arial', sans-serif;
 font-weight: bold;
+list-style: none;
+text-decoration: none;
 background-color: #528655;
 padding: 5px;
+
 }
 
 #waw {
