@@ -3,6 +3,13 @@ background-color: #101727;
 font-family: 'Overpass', 'Arial', sans-serif;
 color: white;
 text-align: center;
+font-size: 16px;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
 }
 
 h1 {
@@ -13,18 +20,20 @@ font-weight: bold;
 text-transform:capitalize;
 }
 
-h3 {
-font-family: 'Overpass', 'Arial', sans-serif;
-font-size: 16px;
-font-weight: bold;
-color: white;
-text-transform: uppercase;
-text-decoration: none;
+
+.nav {
+  font-family: 'Overpass', 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+
 }
 
-body {
-  text-decoration: none;
-}
 
 a {
 text-decoration: none;
@@ -36,19 +45,9 @@ img {
   width: 100%;
 }
 
-nav {
-  display: flex;
-  font-family: 'Overpass', 'Arial', sans-serif;
-  font-weight: bold;
-  list-style: none;
-  text-decoration: none;
-  flex-direction: row;
-  justify-content: center;
-  flex-flow: wrap;
-  justify-content:space-around;
 
 
-}
+
 
 #navigation {
 font-family: 'Overpass', 'Arial', sans-serif;
@@ -73,21 +72,43 @@ padding: 5px;
 }
 
 #contestants {
-  background-color: #141B54;
-  padding: 1px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #gender {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#ethnicity {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 50px;
+}
+
+#lgbtq {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   display: block;
+  padding-top: 50px;
 
 }
 
-@media only screen and (max-width: 500px) {
-nav {
-flex-direction: column;
+#headline {
+background-color: #141B54;
+padding-top: 1px;
 }
+
+#twitter {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 
 }
