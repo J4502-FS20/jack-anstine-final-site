@@ -20,6 +20,11 @@ font-weight: bold;
 text-transform:capitalize;
 }
 
+h2 {
+font-family: 'Source Serif Pro', sans-serif;
+font-size: 36px;
+font-weight: bold;
+}
 
 .nav {
   font-family: 'Overpass', 'Arial', sans-serif;
@@ -79,14 +84,14 @@ padding: 5px;
 }
 
 #gender {
-  width: 75%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
 #ethnicity {
-  width: 75%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -108,9 +113,76 @@ padding-top: 1px;
 }
 
 #twitter {
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+
+}
+
+#female {
+color: #528655
+}
+
+#asianamerican {
+color: #528655
+}
+
+#black {
+  color: #EBF648
+}
+
+#latinx {
+  color: #D5594E
+}
+
+#introduction {
+margin-left: 10%;
+margin-right: 10%;
+}
+
+#lf1 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#lf2{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#femalewinners {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
+}
 
+#malewinners {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#aawinners {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#blackwinners {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sandra {
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#whitewinners {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
